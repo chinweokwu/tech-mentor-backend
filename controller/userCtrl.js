@@ -134,4 +134,12 @@ export const logOut = asyncHandler(async (req, res) => {
   }
 });
 
+export const getUsers = asyncHandler(async (req, res) => {
+  try {
+    const users = await User.find();
+    res.json(users)
+  } catch(error){
+    throw new Error("Internally Server Error")
+  }
+});
 
