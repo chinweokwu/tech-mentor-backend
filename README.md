@@ -1,4 +1,6 @@
 # Backend Signup and Signin APi 
+- To see the live site check here
+   [Live Demo Link](https://pink-better-chimpanzee.cyclic.app/api/user/all-users)
 
 ## Built With
 - Javascript ES6
@@ -16,6 +18,17 @@
 - joi
 - joi-password-complexity
 - Morgan
+
+### Installation
+You need to have this tools to get your server running:
+* npm
+* node
+* Clone the repo git clone git clone https://github.com/chinweokwu/tech-mentor-backend.git
+* Open your terminal and cd to the project`s folder
+* Install packages with using 'npm install'
+* make sure you have a mongodb database and the .env file is set up with your database connection
+* Run the server with 'node index.js'
+
 
 ## Author  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
