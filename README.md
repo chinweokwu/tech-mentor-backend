@@ -37,13 +37,9 @@ You need to have this tools to get your server running:
 - Twitter: [@Morah89820846](https://twitter.com/Morah89820846)
 - Linkedin: [Paul Chinweoku Morah](https://www.linkedin.com/in/morah-paul/)
 
-## Acknowledgment
-
-This app is inspire by the [codeperfectionist](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb)
-
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](https://github.com/chinweokwu/Alx-Gorilla-fitness/issues).
+Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](https://github.com/chinweokwu/tech-mentor-backend/issues).
 
 ## Show your support
 
