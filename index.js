@@ -16,7 +16,6 @@ app.use(express.json());
 app.use(CookieParser());
 app.use(cors({
   origin: ["https://whimsical-sherbet-81461d.netlify.app", "http://localhost:5173"],
-  credentials: true
 }));
 app.use(helmet());
 app.use(morgan("combined"));
