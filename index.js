@@ -19,7 +19,7 @@ app.use(cors({
 }));
 app.use(helmet());
 app.use(morgan("combined"));
-
+console.log("SECRET_KEY:", process.env.SECRET_KEY);
 app.use("/api/user",userRoutes);
 
 const port = process.env.PORT || 5000;
