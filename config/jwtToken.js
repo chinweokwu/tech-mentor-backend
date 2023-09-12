@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 
 const generateToken = (id) => {
   try {
-    const secretKey = process.env.SECRET_KEY;
+    const secretKey = mysecretALXsecretCode;
     if (!secretKey) {
       throw new Error('SECRET_KEY environment variable is missing or empty.');
     }
