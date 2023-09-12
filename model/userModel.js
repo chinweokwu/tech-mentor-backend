@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
-import crypto from "node:crypto";
+
 
 const userSchema = new mongoose.Schema(
   {
@@ -21,9 +21,6 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    refreshToken: {
-      type: String,
-    }
   },
   {
     timestamps: true,
